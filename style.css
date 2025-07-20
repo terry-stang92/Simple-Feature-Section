@@ -90,3 +90,13 @@ body {
   margin-top: auto;
 
 }
+@media (max-width: 900px) {
+  .feature-cards-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-card {
+    max-width: 90%;
+    width: 100%;
+  }
+}
